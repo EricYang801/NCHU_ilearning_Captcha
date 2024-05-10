@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52BAB6E2BEE400200D7AF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB6D2BEE400200D7AF2C /* AppDelegate.swift */; };
+		F52BAB702BEE400200D7AF2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB6F2BEE400200D7AF2C /* SceneDelegate.swift */; };
+		F52BAB732BEE400200D7AF2C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB722BEE400200D7AF2C /* Base */; };
+		F52BAB762BEE400200D7AF2C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB752BEE400200D7AF2C /* Base */; };
+		F52BAB7F2BEE400200D7AF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB7E2BEE400200D7AF2C /* AppDelegate.swift */; };
+		F52BAB822BEE400200D7AF2C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB812BEE400200D7AF2C /* Base */; };
+		F52BAB892BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F52BAB882BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F52BAB932BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F52BAB922BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F52BAB992BEE400200D7AF2C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB552BEE3FFF00D7AF2C /* Base */; };
+		F52BAB9A2BEE400200D7AF2C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB552BEE3FFF00D7AF2C /* Base */; };
+		F52BAB9B2BEE400200D7AF2C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB562BEE3FFF00D7AF2C /* Icon.png */; };
+		F52BAB9C2BEE400200D7AF2C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB562BEE3FFF00D7AF2C /* Icon.png */; };
+		F52BAB9D2BEE400200D7AF2C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB572BEE3FFF00D7AF2C /* Style.css */; };
+		F52BAB9E2BEE400200D7AF2C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB572BEE3FFF00D7AF2C /* Style.css */; };
+		F52BAB9F2BEE400200D7AF2C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB582BEE3FFF00D7AF2C /* Script.js */; };
+		F52BABA02BEE400200D7AF2C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB582BEE3FFF00D7AF2C /* Script.js */; };
+		F52BABA12BEE400200D7AF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB592BEE3FFF00D7AF2C /* ViewController.swift */; };
+		F52BABA22BEE400200D7AF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB592BEE3FFF00D7AF2C /* ViewController.swift */; };
+		F52BABA32BEE400200D7AF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB5A2BEE400200D7AF2C /* Assets.xcassets */; };
+		F52BABA42BEE400200D7AF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB5A2BEE400200D7AF2C /* Assets.xcassets */; };
+		F52BABA52BEE400200D7AF2C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB5C2BEE400200D7AF2C /* SafariWebExtensionHandler.swift */; };
+		F52BABA62BEE400200D7AF2C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52BAB5C2BEE400200D7AF2C /* SafariWebExtensionHandler.swift */; };
+		F52BABA72BEE400200D7AF2C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB5E2BEE400200D7AF2C /* _locales */; };
+		F52BABA82BEE400200D7AF2C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB5E2BEE400200D7AF2C /* _locales */; };
+		F52BABA92BEE400200D7AF2C /* images in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB5F2BEE400200D7AF2C /* images */; };
+		F52BABAA2BEE400200D7AF2C /* images in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB5F2BEE400200D7AF2C /* images */; };
+		F52BABAB2BEE400200D7AF2C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB602BEE400200D7AF2C /* manifest.json */; };
+		F52BABAC2BEE400200D7AF2C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB602BEE400200D7AF2C /* manifest.json */; };
+		F52BABAD2BEE400200D7AF2C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB612BEE400200D7AF2C /* background.js */; };
+		F52BABAE2BEE400200D7AF2C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB612BEE400200D7AF2C /* background.js */; };
+		F52BABAF2BEE400200D7AF2C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB622BEE400200D7AF2C /* content.js */; };
+		F52BABB02BEE400200D7AF2C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB622BEE400200D7AF2C /* content.js */; };
+		F52BABB12BEE400200D7AF2C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB632BEE400200D7AF2C /* popup.html */; };
+		F52BABB22BEE400200D7AF2C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB632BEE400200D7AF2C /* popup.html */; };
+		F52BABB32BEE400200D7AF2C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB642BEE400200D7AF2C /* popup.css */; };
+		F52BABB42BEE400200D7AF2C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB642BEE400200D7AF2C /* popup.css */; };
+		F52BABB52BEE400200D7AF2C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB652BEE400200D7AF2C /* popup.js */; };
+		F52BABB62BEE400200D7AF2C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F52BAB652BEE400200D7AF2C /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52BAB8A2BEE400200D7AF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52BAB4E2BEE3FFF00D7AF2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52BAB872BEE400200D7AF2C;
+			remoteInfo = "NCHU_ilearning_Captcha Extension (iOS)";
+		};
+		F52BAB942BEE400200D7AF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52BAB4E2BEE3FFF00D7AF2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52BAB912BEE400200D7AF2C;
+			remoteInfo = "NCHU_ilearning_Captcha Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F52BABBC2BEE400200D7AF2C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F52BAB892BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BABC32BEE400200D7AF2C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F52BAB932BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F52BAB552BEE3FFF00D7AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F52BAB562BEE3FFF00D7AF2C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F52BAB572BEE3FFF00D7AF2C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F52BAB582BEE3FFF00D7AF2C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F52BAB592BEE3FFF00D7AF2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F52BAB5A2BEE400200D7AF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52BAB5C2BEE400200D7AF2C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F52BAB5E2BEE400200D7AF2C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F52BAB5F2BEE400200D7AF2C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F52BAB602BEE400200D7AF2C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F52BAB612BEE400200D7AF2C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		F52BAB622BEE400200D7AF2C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		F52BAB632BEE400200D7AF2C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F52BAB642BEE400200D7AF2C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		F52BAB652BEE400200D7AF2C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F52BAB6A2BEE400200D7AF2C /* NCHU_ilearning_Captcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCHU_ilearning_Captcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52BAB6D2BEE400200D7AF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F52BAB6F2BEE400200D7AF2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F52BAB722BEE400200D7AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52BAB752BEE400200D7AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52BAB772BEE400200D7AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52BAB7C2BEE400200D7AF2C /* NCHU_ilearning_Captcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCHU_ilearning_Captcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52BAB7E2BEE400200D7AF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F52BAB812BEE400200D7AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F52BAB832BEE400200D7AF2C /* NCHU_ilearning_Captcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NCHU_ilearning_Captcha.entitlements; sourceTree = "<group>"; };
+		F52BAB882BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NCHU_ilearning_Captcha Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52BAB8D2BEE400200D7AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52BAB922BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NCHU_ilearning_Captcha Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52BAB972BEE400200D7AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52BAB982BEE400200D7AF2C /* NCHU_ilearning_Captcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NCHU_ilearning_Captcha.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52BAB672BEE400200D7AF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB792BEE400200D7AF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB852BEE400200D7AF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB8F2BEE400200D7AF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52BAB4D2BEE3FFF00D7AF2C = {
+			isa = PBXGroup;
+			children = (
+				F52BAB522BEE3FFF00D7AF2C /* Shared (App) */,
+				F52BAB5B2BEE400200D7AF2C /* Shared (Extension) */,
+				F52BAB6C2BEE400200D7AF2C /* iOS (App) */,
+				F52BAB7D2BEE400200D7AF2C /* macOS (App) */,
+				F52BAB8C2BEE400200D7AF2C /* iOS (Extension) */,
+				F52BAB962BEE400200D7AF2C /* macOS (Extension) */,
+				F52BAB6B2BEE400200D7AF2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52BAB522BEE3FFF00D7AF2C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB592BEE3FFF00D7AF2C /* ViewController.swift */,
+				F52BAB5A2BEE400200D7AF2C /* Assets.xcassets */,
+				F52BAB532BEE3FFF00D7AF2C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F52BAB532BEE3FFF00D7AF2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB542BEE3FFF00D7AF2C /* Main.html */,
+				F52BAB562BEE3FFF00D7AF2C /* Icon.png */,
+				F52BAB572BEE3FFF00D7AF2C /* Style.css */,
+				F52BAB582BEE3FFF00D7AF2C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F52BAB5B2BEE400200D7AF2C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB5C2BEE400200D7AF2C /* SafariWebExtensionHandler.swift */,
+				F52BAB5D2BEE400200D7AF2C /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F52BAB5D2BEE400200D7AF2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB5E2BEE400200D7AF2C /* _locales */,
+				F52BAB5F2BEE400200D7AF2C /* images */,
+				F52BAB602BEE400200D7AF2C /* manifest.json */,
+				F52BAB612BEE400200D7AF2C /* background.js */,
+				F52BAB622BEE400200D7AF2C /* content.js */,
+				F52BAB632BEE400200D7AF2C /* popup.html */,
+				F52BAB642BEE400200D7AF2C /* popup.css */,
+				F52BAB652BEE400200D7AF2C /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F52BAB6B2BEE400200D7AF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB6A2BEE400200D7AF2C /* NCHU_ilearning_Captcha.app */,
+				F52BAB7C2BEE400200D7AF2C /* NCHU_ilearning_Captcha.app */,
+				F52BAB882BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */,
+				F52BAB922BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52BAB6C2BEE400200D7AF2C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB6D2BEE400200D7AF2C /* AppDelegate.swift */,
+				F52BAB6F2BEE400200D7AF2C /* SceneDelegate.swift */,
+				F52BAB712BEE400200D7AF2C /* LaunchScreen.storyboard */,
+				F52BAB742BEE400200D7AF2C /* Main.storyboard */,
+				F52BAB772BEE400200D7AF2C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F52BAB7D2BEE400200D7AF2C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB7E2BEE400200D7AF2C /* AppDelegate.swift */,
+				F52BAB802BEE400200D7AF2C /* Main.storyboard */,
+				F52BAB832BEE400200D7AF2C /* NCHU_ilearning_Captcha.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F52BAB8C2BEE400200D7AF2C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB8D2BEE400200D7AF2C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F52BAB962BEE400200D7AF2C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F52BAB972BEE400200D7AF2C /* Info.plist */,
+				F52BAB982BEE400200D7AF2C /* NCHU_ilearning_Captcha.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52BAB692BEE400200D7AF2C /* NCHU_ilearning_Captcha (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52BABBD2BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha (iOS)" */;
+			buildPhases = (
+				F52BAB662BEE400200D7AF2C /* Sources */,
+				F52BAB672BEE400200D7AF2C /* Frameworks */,
+				F52BAB682BEE400200D7AF2C /* Resources */,
+				F52BABBC2BEE400200D7AF2C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52BAB8B2BEE400200D7AF2C /* PBXTargetDependency */,
+			);
+			name = "NCHU_ilearning_Captcha (iOS)";
+			productName = "NCHU_ilearning_Captcha (iOS)";
+			productReference = F52BAB6A2BEE400200D7AF2C /* NCHU_ilearning_Captcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52BAB7B2BEE400200D7AF2C /* NCHU_ilearning_Captcha (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52BABC42BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha (macOS)" */;
+			buildPhases = (
+				F52BAB782BEE400200D7AF2C /* Sources */,
+				F52BAB792BEE400200D7AF2C /* Frameworks */,
+				F52BAB7A2BEE400200D7AF2C /* Resources */,
+				F52BABC32BEE400200D7AF2C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52BAB952BEE400200D7AF2C /* PBXTargetDependency */,
+			);
+			name = "NCHU_ilearning_Captcha (macOS)";
+			productName = "NCHU_ilearning_Captcha (macOS)";
+			productReference = F52BAB7C2BEE400200D7AF2C /* NCHU_ilearning_Captcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52BAB872BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52BABB92BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha Extension (iOS)" */;
+			buildPhases = (
+				F52BAB842BEE400200D7AF2C /* Sources */,
+				F52BAB852BEE400200D7AF2C /* Frameworks */,
+				F52BAB862BEE400200D7AF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NCHU_ilearning_Captcha Extension (iOS)";
+			productName = "NCHU_ilearning_Captcha Extension (iOS)";
+			productReference = F52BAB882BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F52BAB912BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52BABC02BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha Extension (macOS)" */;
+			buildPhases = (
+				F52BAB8E2BEE400200D7AF2C /* Sources */,
+				F52BAB8F2BEE400200D7AF2C /* Frameworks */,
+				F52BAB902BEE400200D7AF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NCHU_ilearning_Captcha Extension (macOS)";
+			productName = "NCHU_ilearning_Captcha Extension (macOS)";
+			productReference = F52BAB922BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52BAB4E2BEE3FFF00D7AF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F52BAB692BEE400200D7AF2C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F52BAB7B2BEE400200D7AF2C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F52BAB872BEE400200D7AF2C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F52BAB912BEE400200D7AF2C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F52BAB512BEE3FFF00D7AF2C /* Build configuration list for PBXProject "NCHU_ilearning_Captcha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52BAB4D2BEE3FFF00D7AF2C;
+			productRefGroup = F52BAB6B2BEE400200D7AF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52BAB692BEE400200D7AF2C /* NCHU_ilearning_Captcha (iOS) */,
+				F52BAB7B2BEE400200D7AF2C /* NCHU_ilearning_Captcha (macOS) */,
+				F52BAB872BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension (iOS) */,
+				F52BAB912BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52BAB682BEE400200D7AF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BAB9B2BEE400200D7AF2C /* Icon.png in Resources */,
+				F52BAB732BEE400200D7AF2C /* Base in Resources */,
+				F52BAB992BEE400200D7AF2C /* Base in Resources */,
+				F52BAB9F2BEE400200D7AF2C /* Script.js in Resources */,
+				F52BABA32BEE400200D7AF2C /* Assets.xcassets in Resources */,
+				F52BAB762BEE400200D7AF2C /* Base in Resources */,
+				F52BAB9D2BEE400200D7AF2C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB7A2BEE400200D7AF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BAB9C2BEE400200D7AF2C /* Icon.png in Resources */,
+				F52BAB9E2BEE400200D7AF2C /* Style.css in Resources */,
+				F52BAB822BEE400200D7AF2C /* Base in Resources */,
+				F52BABA02BEE400200D7AF2C /* Script.js in Resources */,
+				F52BABA42BEE400200D7AF2C /* Assets.xcassets in Resources */,
+				F52BAB9A2BEE400200D7AF2C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB862BEE400200D7AF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BABAD2BEE400200D7AF2C /* background.js in Resources */,
+				F52BABB32BEE400200D7AF2C /* popup.css in Resources */,
+				F52BABB12BEE400200D7AF2C /* popup.html in Resources */,
+				F52BABA92BEE400200D7AF2C /* images in Resources */,
+				F52BABAB2BEE400200D7AF2C /* manifest.json in Resources */,
+				F52BABA72BEE400200D7AF2C /* _locales in Resources */,
+				F52BABAF2BEE400200D7AF2C /* content.js in Resources */,
+				F52BABB52BEE400200D7AF2C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB902BEE400200D7AF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BABAE2BEE400200D7AF2C /* background.js in Resources */,
+				F52BABB42BEE400200D7AF2C /* popup.css in Resources */,
+				F52BABB22BEE400200D7AF2C /* popup.html in Resources */,
+				F52BABAA2BEE400200D7AF2C /* images in Resources */,
+				F52BABAC2BEE400200D7AF2C /* manifest.json in Resources */,
+				F52BABA82BEE400200D7AF2C /* _locales in Resources */,
+				F52BABB02BEE400200D7AF2C /* content.js in Resources */,
+				F52BABB62BEE400200D7AF2C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52BAB662BEE400200D7AF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BABA12BEE400200D7AF2C /* ViewController.swift in Sources */,
+				F52BAB6E2BEE400200D7AF2C /* AppDelegate.swift in Sources */,
+				F52BAB702BEE400200D7AF2C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB782BEE400200D7AF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BABA22BEE400200D7AF2C /* ViewController.swift in Sources */,
+				F52BAB7F2BEE400200D7AF2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB842BEE400200D7AF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BABA52BEE400200D7AF2C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52BAB8E2BEE400200D7AF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52BABA62BEE400200D7AF2C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52BAB8B2BEE400200D7AF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52BAB872BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension (iOS) */;
+			targetProxy = F52BAB8A2BEE400200D7AF2C /* PBXContainerItemProxy */;
+		};
+		F52BAB952BEE400200D7AF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52BAB912BEE400200D7AF2C /* NCHU_ilearning_Captcha Extension (macOS) */;
+			targetProxy = F52BAB942BEE400200D7AF2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52BAB542BEE3FFF00D7AF2C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52BAB552BEE3FFF00D7AF2C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F52BAB712BEE400200D7AF2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52BAB722BEE400200D7AF2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F52BAB742BEE400200D7AF2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52BAB752BEE400200D7AF2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F52BAB802BEE400200D7AF2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52BAB812BEE400200D7AF2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52BABB72BEE400200D7AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F52BABB82BEE400200D7AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F52BABBA2BEE400200D7AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NCHU_ilearning_Captcha Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha.Extension";
+				PRODUCT_NAME = "NCHU_ilearning_Captcha Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52BABBB2BEE400200D7AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NCHU_ilearning_Captcha Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha.Extension";
+				PRODUCT_NAME = "NCHU_ilearning_Captcha Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52BABBE2BEE400200D7AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_ilearning_Captcha;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha";
+				PRODUCT_NAME = NCHU_ilearning_Captcha;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52BABBF2BEE400200D7AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_ilearning_Captcha;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha";
+				PRODUCT_NAME = NCHU_ilearning_Captcha;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52BABC12BEE400200D7AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/NCHU_ilearning_Captcha.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NCHU_ilearning_Captcha Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha.Extension";
+				PRODUCT_NAME = "NCHU_ilearning_Captcha Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F52BABC22BEE400200D7AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/NCHU_ilearning_Captcha.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NCHU_ilearning_Captcha Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha.Extension";
+				PRODUCT_NAME = "NCHU_ilearning_Captcha Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F52BABC52BEE400200D7AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/NCHU_ilearning_Captcha.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_ilearning_Captcha;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha";
+				PRODUCT_NAME = NCHU_ilearning_Captcha;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F52BABC62BEE400200D7AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/NCHU_ilearning_Captcha.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_ilearning_Captcha;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Yang.NCHU-ilearning-Captcha";
+				PRODUCT_NAME = NCHU_ilearning_Captcha;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52BAB512BEE3FFF00D7AF2C /* Build configuration list for PBXProject "NCHU_ilearning_Captcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52BABB72BEE400200D7AF2C /* Debug */,
+				F52BABB82BEE400200D7AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52BABB92BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52BABBA2BEE400200D7AF2C /* Debug */,
+				F52BABBB2BEE400200D7AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52BABBD2BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52BABBE2BEE400200D7AF2C /* Debug */,
+				F52BABBF2BEE400200D7AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52BABC02BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52BABC12BEE400200D7AF2C /* Debug */,
+				F52BABC22BEE400200D7AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52BABC42BEE400200D7AF2C /* Build configuration list for PBXNativeTarget "NCHU_ilearning_Captcha (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52BABC52BEE400200D7AF2C /* Debug */,
+				F52BABC62BEE400200D7AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52BAB4E2BEE3FFF00D7AF2C /* Project object */;
+}
